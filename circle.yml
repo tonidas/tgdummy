@@ -1,0 +1,12 @@
+dependencies:
+  post:
+    - gem install versi -v 0.3.2
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global user.email "airtonsobral@gmail.com"
+      - git config --global user.name "tonidas"
+      - versi generate -d
+      - versi generate
