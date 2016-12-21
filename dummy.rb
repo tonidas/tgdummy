@@ -1,5 +1,5 @@
 class Dummy
   def my_name
-    "Dummy"
+    "my name is Dummy"
   end
 end

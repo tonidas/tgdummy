@@ -1,0 +1,9 @@
+dependencies:
+  post:
+    - gem install versi -v 0.3.1
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - versi generate
